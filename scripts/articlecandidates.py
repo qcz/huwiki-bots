@@ -9,7 +9,6 @@ from pywikibot import date, pagegenerators
 
 class ArticleCandidateBot:
     templatePage: str = u"Sablon:Cikkjelöltek"
-    readOnly: bool = False
 
     def run(self):
         site = pywikibot.Site()
